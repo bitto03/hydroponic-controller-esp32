@@ -39,6 +39,15 @@ All without user intervention.
 | Grow Light (LED) | 1       |
 | Jumper Wires    | As needed |
 
+## ESP32 Pin Connections for Hydroponic IoT System
+
+| Component         | Connected To (ESP32 Pin) | Notes                               |
+| ----------------- | ------------------------ | ----------------------------------- |
+| **DHT11 Sensor**  | GPIO 4                   | Data pin, use 10k pull-up if needed |
+| **Relay - Light** | GPIO 16                  | Controls grow light                 |
+| **Relay - Fan**   | GPIO 17                  | Controls exhaust fan                |
+| **Relay - Pump**  | GPIO 18                  | Controls water/nutrient pump        |
+
 
 ##  Relay Cycle Timing
 
@@ -65,14 +74,14 @@ All without user intervention.
 
 ## To-Do / Future Upgrades
 
-- 📱 Mobile App Integration (Flutter or Android)
-- 🌐 Remote control via Blynk / MQTT / Firebase
-- 📊 Real-time sensor graphing (using charts.js)
-- 💾 Store relay status in Preferences or EEPROM
-- 🔋 Solar power integration
+-  Mobile App Integration (Flutter or Android)
+-  Remote control via Blynk / MQTT / Firebase
+-  Real-time sensor graphing (using charts.js)
+-  Store relay status in Preferences or EEPROM
+-  Solar power integration
 
 
-## 🙌 About  
+## About  
 
-This project is made with care by **[BHB Enterprise]** # Basirul Hasin.
+This project is made with care by **[BHB Enterprise]** ## Basirul Hasin.
 empowering smart agriculture and eco-automation systems in Bangladesh and beyond.
